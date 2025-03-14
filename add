@@ -1,0 +1,4 @@
+cd kodiak-holindgs-website
+git add .
+git commit -m "Initial commit with website code"
+git push origin main
