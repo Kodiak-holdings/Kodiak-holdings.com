@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kodiak Holdings</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+      background-color: #fff;
+      line-height: 1.6;
+    }
+    /* Header & Navigation */
+    header {
+      background-color: #fff;
+      padding: 20px 0;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 100;
+    }
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    header h2 {
+      display: inline-block;
+      font-size: 24px;
+      margin: 0;
+    }
+    nav {
+      float: right;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+    }
+    nav ul li {
+      margin-left: 20px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    /* Hero Section */
+    .hero {
+      height: 100vh;
+      background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      padding-top: 80px; /* Offset for fixed header */
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 24px;
+    }
+    /* Content Sections */
+    .section {
+      padding: 60px 0;
+      text-align: center;
+    }
+    .section h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .section p {
+      font-size: 18px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    /* Footer */
+    footer {
+      background: #f8f8f8;
+      padding: 20px 0;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container">
+      <h2>Kodiak Holdings</h2>
+      <nav>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div style="clear: both;"></div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <h1>Welcome to Kodiak Holdings</h1>
+      <p>Your trusted partner in global investments</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>At Kodiak Holdings, we specialize in delivering tailored solutions for your business needs. Our experienced team is dedicated to providing exceptional value and results to clients worldwide.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section" id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <p>We offer a range of services including legal advisory, financial consulting, IT solutions, and human resources support to help your business thrive in a competitive market.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Have questions or need our services? Reach out via email at <a href="mailto:info@kodiak-holindgs.com">info@kodiak-holindgs.com</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Kodiak Holdings. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
